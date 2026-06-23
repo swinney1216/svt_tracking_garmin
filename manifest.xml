@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<iq:manifest xmlns:iq="com.garmin.xml.app.manifest.v2" version="2">
+    <iq:application
+        entry="SVTTrackerApp"
+        id="a3f7c2d1-84be-4a09-b231-fc9e0d7a5182"
+        minSdkVersion="3.1.0"
+        name="@Strings.AppName"
+        type="widget"
+        version="1.0.0">
+        <iq:products>
+            <!-- Primary device: Forerunner 255S Music -->
+            <iq:product id="fr255sm"/>
+            <!-- Other 255 variants -->
+            <iq:product id="fr255s"/>
+            <iq:product id="fr255m"/>
+            <iq:product id="fr255"/>
+            <!-- Forerunner 265 family -->
+            <iq:product id="fr265s"/>
+            <iq:product id="fr265"/>
+            <!-- Forerunner 955/955 Solar -->
+            <iq:product id="fr955"/>
+            <!-- fenix 7 family -->
+            <iq:product id="fenix7s"/>
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7x"/>
+            <!-- Venu 3 family -->
+            <iq:product id="venu3s"/>
+            <iq:product id="venu3"/>
+        </iq:products>
+        <iq:permissions/>
+        <iq:languages>
+            <iq:language>eng</iq:language>
+        </iq:languages>
+    </iq:application>
+</iq:manifest>
