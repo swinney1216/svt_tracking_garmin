@@ -3,6 +3,9 @@ import Toybox.Lang;
 import Toybox.Time;
 import Toybox.WatchUi;
 
+// Paste your deployed Google Apps Script URL here after setup
+const SYNC_URL as String = "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
+
 // ── App entry point ─────────────────────────────────────────────────────────
 
 class SVTTrackerApp extends Application.AppBase {

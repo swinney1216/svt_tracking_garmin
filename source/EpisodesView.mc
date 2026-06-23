@@ -1,3 +1,4 @@
+import Toybox.Communications;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
@@ -28,7 +29,8 @@ function openEpisodesMenu() as Void {
             }
             menu.addItem(new WatchUi.MenuItem(label, sub, i, {}));
         }
-        menu.addItem(new WatchUi.MenuItem("-- Delete All --", null, :deleteAll, {}));
+        menu.addItem(new WatchUi.MenuItem("-- Sync to Sheet --", null, :sync,      {}));
+        menu.addItem(new WatchUi.MenuItem("-- Delete All --",    null, :deleteAll, {}));
     }
 
     WatchUi.pushView(menu, new EpisodesMenuDelegate(), WatchUi.SLIDE_UP);
@@ -46,12 +48,13 @@ class EpisodesMenuDelegate extends WatchUi.Menu2InputDelegate {
         var id = item.getId();
 
         if (id == :empty) {
-            // Nothing to act on — close
+            WatchUi.popView(WatchUi.SLIDE_DOWN);
+        } else if (id == :sync) {
+            syncEpisodes();
             WatchUi.popView(WatchUi.SLIDE_DOWN);
         } else if (id == :deleteAll) {
             openDeleteAllConfirm();
         } else {
-            // id is the original array index of the episode
             openDeleteEpisodeConfirm(id as Number);
         }
     }
@@ -126,5 +129,53 @@ class DeleteAllDelegate extends WatchUi.Menu2InputDelegate {
         } else {
             WatchUi.popView(WatchUi.SLIDE_DOWN);
         }
+    }
+}
+
+// ── Sync to Google Sheet ─────────────────────────────────────────────────────
+//
+// Kept in a module-level var so the instance survives until the HTTP callback
+// fires (GC won't collect it while _activeSync holds the reference).
+
+var _activeSync as SyncRequest? = null;
+
+function syncEpisodes() as Void {
+    _activeSync = new SyncRequest();
+    _activeSync.send();
+}
+
+class SyncRequest {
+
+    function initialize() {}
+
+    function send() as Void {
+        var episodes = getEpisodes();
+        if (episodes.size() == 0) { return; }
+
+        var payload = [] as Array<Dictionary>;
+        for (var i = 0; i < episodes.size(); i++) {
+            var ep = episodes[i] as Dictionary;
+            payload.add({
+                "id"      => ep["id"],
+                "start"   => ep["start"],
+                "stop"    => ep["stop"],
+                "trigger" => ep.hasKey("trigger") ? ep["trigger"] as String : "None"
+            });
+        }
+
+        Communications.makeWebRequest(
+            SYNC_URL,
+            {"episodes" => payload},
+            {
+                :method       => Communications.HTTP_REQUEST_METHOD_POST,
+                :headers      => {"Content-Type" => "application/json"},
+                :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
+            },
+            method(:onResponse)
+        );
+    }
+
+    function onResponse(responseCode as Number, data as Dictionary or String or Null) as Void {
+        _activeSync = null;
     }
 }

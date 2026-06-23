@@ -2,341 +2,391 @@
 <debugInfo>
     <manifest filename="/Users/brandonswinney/Developer/svt_tracking_garmin/manifest.xml"/>
     <pcToLineNum>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="1" lineNum="8" parent="globals/SVTTrackerApp" pc="268435457" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="85" parent="globals" pc="268435469" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="86" parent="globals" pc="268435480" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="87" parent="globals" pc="268435506" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="88" parent="globals" pc="268435523" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="89" parent="globals" pc="268435544" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="90" parent="globals" pc="268435565" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="91" parent="globals" pc="268435586" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="92" parent="globals" pc="268435607" symbol="fmtTimestamp"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="3" lineNum="18" parent="globals/MainView" pc="268435637" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="69" parent="globals" pc="268435649" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="70" parent="globals" pc="268435660" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="70" parent="globals" pc="268435667" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="71" parent="globals" pc="268435670" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="72" parent="globals" pc="268435678" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="74" parent="globals" pc="268435699" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="75" parent="globals" pc="268435706" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="76" parent="globals" pc="268435713" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="77" parent="globals" pc="268435721" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="81" parent="globals" pc="268435793" symbol="fmtDuration"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="5" lineNum="42" parent="globals" pc="268435843" symbol="getActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="5" lineNum="43" parent="globals" pc="268435853" symbol="getActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/gen/006-B3990-00/source/Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435871" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="33" parent="globals" pc="268435891" symbol="getEpisodes"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="34" parent="globals" pc="268435902" symbol="getEpisodes"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="35" parent="globals" pc="268435921" symbol="getEpisodes"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="8" lineNum="189" parent="globals/DiscardMenuDelegate" pc="268435935" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="9" lineNum="39" parent="globals/EpisodesMenuDelegate" pc="268435947" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="10" lineNum="46" parent="globals" pc="268435959" symbol="setActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="10" lineNum="47" parent="globals" pc="268435969" symbol="setActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="11" lineNum="136" parent="globals/MainDelegate" pc="268435990" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="12" lineNum="115" parent="globals/DeleteAllDelegate" pc="268436002" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="13" lineNum="208" parent="globals/TriggerMenuDelegate" pc="268436014" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="14" lineNum="85" parent="globals/DeleteEpisodeDelegate" pc="268436026" symbol="&lt;init&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="57" parent="globals" pc="268436038" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="58" parent="globals" pc="268436049" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="58" parent="globals" pc="268436056" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="59" parent="globals" pc="268436059" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="60" parent="globals" pc="268436067" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="61" parent="globals" pc="268436078" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="62" parent="globals" pc="268436085" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="63" parent="globals" pc="268436092" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="15" lineNum="65" parent="globals" pc="268436149" symbol="fmtElapsed"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="11" parent="globals" pc="268436185" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="12" parent="globals" pc="268436196" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="13" parent="globals" pc="268436204" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="15" parent="globals" pc="268436244" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="16" parent="globals" pc="268436256" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="19" parent="globals" pc="268436304" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="20" parent="globals" pc="268436323" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="21" parent="globals" pc="268436330" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="22" parent="globals" pc="268436340" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="23" parent="globals" pc="268436350" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="24" parent="globals" pc="268436385" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="25" parent="globals" pc="268436397" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="26" parent="globals" pc="268436412" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="27" parent="globals" pc="268436430" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="29" parent="globals" pc="268436443" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="31" parent="globals" pc="268436493" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="16" lineNum="34" parent="globals" pc="268436538" symbol="openEpisodesMenu"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="17" lineNum="50" parent="globals" pc="268436574" symbol="clearActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="17" lineNum="51" parent="globals" pc="268436584" symbol="clearActiveStart"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="18" lineNum="38" parent="globals" pc="268436604" symbol="persistEpisodes"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="18" lineNum="39" parent="globals" pc="268436614" symbol="persistEpisodes"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="20" lineNum="20" parent="globals/SVTTrackerApp" pc="268436635" symbol="getInitialView"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="20" lineNum="21" parent="globals/SVTTrackerApp" pc="268436638" symbol="getInitialView"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="20" lineNum="22" parent="globals/SVTTrackerApp" pc="268436658" symbol="getInitialView"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="21" lineNum="10" parent="globals/SVTTrackerApp" pc="268436691" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="21" lineNum="11" parent="globals/SVTTrackerApp" pc="268436693" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="23" lineNum="30" parent="globals/MainView" pc="268436706" symbol="onShow"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="23" lineNum="31" parent="globals/MainView" pc="268436708" symbol="onShow"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="23" lineNum="32" parent="globals/MainView" pc="268436718" symbol="onShow"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="24" lineNum="45" parent="globals/MainView" pc="268436750" symbol="onTick"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="24" lineNum="46" parent="globals/MainView" pc="268436752" symbol="onTick"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="66" parent="globals/MainView" pc="268436764" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="68" parent="globals/MainView" pc="268436766" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="69" parent="globals/MainView" pc="268436783" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="74" parent="globals/MainView" pc="268436812" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="75" parent="globals/MainView" pc="268436829" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="78" parent="globals/MainView" pc="268436857" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="79" parent="globals/MainView" pc="268436874" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="84" parent="globals/MainView" pc="268436903" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="85" parent="globals/MainView" pc="268436919" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="90" parent="globals/MainView" pc="268436948" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="91" parent="globals/MainView" pc="268436964" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="94" parent="globals/MainView" pc="268436993" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="22" parent="globals/MainView" pc="268437023" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="23" parent="globals/MainView" pc="268437025" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="24" parent="globals/MainView" pc="268437037" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="36" parent="globals/MainView" pc="268437067" symbol="startTicker"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="37" parent="globals/MainView" pc="268437069" symbol="startTicker"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="38" parent="globals/MainView" pc="268437100" symbol="startTicker"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="29" lineNum="41" parent="globals/MainView" pc="268437112" symbol="onHide"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="29" lineNum="42" parent="globals/MainView" pc="268437114" symbol="onHide"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="49" parent="globals/MainView" pc="268437127" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="50" parent="globals/MainView" pc="268437130" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="51" parent="globals/MainView" pc="268437139" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="52" parent="globals/MainView" pc="268437148" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="54" parent="globals/MainView" pc="268437155" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="55" parent="globals/MainView" pc="268437167" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="57" parent="globals/MainView" pc="268437175" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="58" parent="globals/MainView" pc="268437185" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="60" parent="globals/MainView" pc="268437201" symbol="onUpdate"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="101" parent="globals/MainView" pc="268437217" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="102" parent="globals/MainView" pc="268437220" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="103" parent="globals/MainView" pc="268437228" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="106" parent="globals/MainView" pc="268437255" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="107" parent="globals/MainView" pc="268437272" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="112" parent="globals/MainView" pc="268437301" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="113" parent="globals/MainView" pc="268437318" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="118" parent="globals/MainView" pc="268437352" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="119" parent="globals/MainView" pc="268437369" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="124" parent="globals/MainView" pc="268437398" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="125" parent="globals/MainView" pc="268437414" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="128" parent="globals/MainView" pc="268437443" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="191" parent="globals/DiscardMenuDelegate" pc="268437473" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="192" parent="globals/DiscardMenuDelegate" pc="268437475" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="195" parent="globals/DiscardMenuDelegate" pc="268437488" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="196" parent="globals/DiscardMenuDelegate" pc="268437490" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="197" parent="globals/DiscardMenuDelegate" pc="268437506" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="198" parent="globals/DiscardMenuDelegate" pc="268437513" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="199" parent="globals/DiscardMenuDelegate" pc="268437528" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="201" parent="globals/DiscardMenuDelegate" pc="268437540" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="34" lineNum="59" parent="globals/EpisodesMenuDelegate" pc="268437556" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="34" lineNum="60" parent="globals/EpisodesMenuDelegate" pc="268437558" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="35" lineNum="41" parent="globals/EpisodesMenuDelegate" pc="268437574" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="35" lineNum="42" parent="globals/EpisodesMenuDelegate" pc="268437576" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="63" parent="globals/EpisodesMenuDelegate" pc="268437589" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="64" parent="globals/EpisodesMenuDelegate" pc="268437592" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="65" parent="globals/EpisodesMenuDelegate" pc="268437600" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="66" parent="globals/EpisodesMenuDelegate" pc="268437607" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="67" parent="globals/EpisodesMenuDelegate" pc="268437625" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="68" parent="globals/EpisodesMenuDelegate" pc="268437662" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="69" parent="globals/EpisodesMenuDelegate" pc="268437707" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="70" parent="globals/EpisodesMenuDelegate" pc="268437752" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="45" parent="globals/EpisodesMenuDelegate" pc="268437790" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="46" parent="globals/EpisodesMenuDelegate" pc="268437793" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="48" parent="globals/EpisodesMenuDelegate" pc="268437802" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="50" parent="globals/EpisodesMenuDelegate" pc="268437813" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="51" parent="globals/EpisodesMenuDelegate" pc="268437829" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="52" parent="globals/EpisodesMenuDelegate" pc="268437840" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="55" parent="globals/EpisodesMenuDelegate" pc="268437848" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="73" parent="globals/EpisodesMenuDelegate" pc="268437860" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="74" parent="globals/EpisodesMenuDelegate" pc="268437863" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="75" parent="globals/EpisodesMenuDelegate" pc="268437877" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="76" parent="globals/EpisodesMenuDelegate" pc="268437905" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="77" parent="globals/EpisodesMenuDelegate" pc="268437942" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="78" parent="globals/EpisodesMenuDelegate" pc="268437987" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="79" parent="globals/EpisodesMenuDelegate" pc="268438032" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="39" lineNum="157" parent="globals/MainDelegate" pc="268438068" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="39" lineNum="158" parent="globals/MainDelegate" pc="268438070" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="39" lineNum="159" parent="globals/MainDelegate" pc="268438080" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="39" lineNum="160" parent="globals/MainDelegate" pc="268438087" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="39" lineNum="162" parent="globals/MainDelegate" pc="268438089" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="166" parent="globals/MainDelegate" pc="268438091" symbol="onPreviousPage"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="167" parent="globals/MainDelegate" pc="268438093" symbol="onPreviousPage"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="168" parent="globals/MainDelegate" pc="268438100" symbol="onPreviousPage"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="179" parent="globals/MainDelegate" pc="268438102" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="180" parent="globals/MainDelegate" pc="268438105" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="181" parent="globals/MainDelegate" pc="268438145" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="182" parent="globals/MainDelegate" pc="268438190" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="183" parent="globals/MainDelegate" pc="268438235" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="140" parent="globals/MainDelegate" pc="268438271" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="141" parent="globals/MainDelegate" pc="268438273" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="142" parent="globals/MainDelegate" pc="268438285" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="171" parent="globals/MainDelegate" pc="268438295" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="172" parent="globals/MainDelegate" pc="268438298" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="173" parent="globals/MainDelegate" pc="268438338" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="174" parent="globals/MainDelegate" pc="268438358" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="176" parent="globals/MainDelegate" pc="268438413" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="146" parent="globals/MainDelegate" pc="268438449" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="147" parent="globals/MainDelegate" pc="268438451" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="148" parent="globals/MainDelegate" pc="268438461" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="149" parent="globals/MainDelegate" pc="268438492" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="151" parent="globals/MainDelegate" pc="268438507" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="153" parent="globals/MainDelegate" pc="268438514" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="45" lineNum="117" parent="globals/DeleteAllDelegate" pc="268438516" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="45" lineNum="118" parent="globals/DeleteAllDelegate" pc="268438518" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="121" parent="globals/DeleteAllDelegate" pc="268438531" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="122" parent="globals/DeleteAllDelegate" pc="268438533" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="123" parent="globals/DeleteAllDelegate" pc="268438549" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="124" parent="globals/DeleteAllDelegate" pc="268438560" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="125" parent="globals/DeleteAllDelegate" pc="268438575" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="127" parent="globals/DeleteAllDelegate" pc="268438591" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="47" lineNum="236" parent="globals/TriggerMenuDelegate" pc="268438607" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="47" lineNum="237" parent="globals/TriggerMenuDelegate" pc="268438609" symbol="onBack"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="48" lineNum="210" parent="globals/TriggerMenuDelegate" pc="268438625" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="48" lineNum="211" parent="globals/TriggerMenuDelegate" pc="268438627" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="214" parent="globals/TriggerMenuDelegate" pc="268438640" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="215" parent="globals/TriggerMenuDelegate" pc="268438643" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="216" parent="globals/TriggerMenuDelegate" pc="268438651" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="217" parent="globals/TriggerMenuDelegate" pc="268438675" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="218" parent="globals/TriggerMenuDelegate" pc="268438684" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="221" parent="globals/TriggerMenuDelegate" pc="268438694" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="222" parent="globals/TriggerMenuDelegate" pc="268438702" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="228" parent="globals/TriggerMenuDelegate" pc="268438749" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="229" parent="globals/TriggerMenuDelegate" pc="268438760" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="231" parent="globals/TriggerMenuDelegate" pc="268438767" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="49" lineNum="232" parent="globals/TriggerMenuDelegate" pc="268438782" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="89" parent="globals/DeleteEpisodeDelegate" pc="268438794" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="90" parent="globals/DeleteEpisodeDelegate" pc="268438796" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="91" parent="globals/DeleteEpisodeDelegate" pc="268438808" symbol="initialize"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="94" parent="globals/DeleteEpisodeDelegate" pc="268438818" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="95" parent="globals/DeleteEpisodeDelegate" pc="268438821" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="96" parent="globals/DeleteEpisodeDelegate" pc="268438837" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="97" parent="globals/DeleteEpisodeDelegate" pc="268438845" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="98" parent="globals/DeleteEpisodeDelegate" pc="268438849" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="99" parent="globals/DeleteEpisodeDelegate" pc="268438865" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="100" parent="globals/DeleteEpisodeDelegate" pc="268438876" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="103" parent="globals/DeleteEpisodeDelegate" pc="268438901" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="105" parent="globals/DeleteEpisodeDelegate" pc="268438912" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="106" parent="globals/DeleteEpisodeDelegate" pc="268438927" symbol="onSelect"/>
-        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="51" lineNum="108" parent="globals/DeleteEpisodeDelegate" pc="268438943" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="1" lineNum="11" parent="globals/SVTTrackerApp" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="88" parent="globals" pc="268435472" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="89" parent="globals" pc="268435483" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="90" parent="globals" pc="268435509" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="91" parent="globals" pc="268435526" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="92" parent="globals" pc="268435547" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="93" parent="globals" pc="268435568" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="94" parent="globals" pc="268435589" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="2" lineNum="95" parent="globals" pc="268435610" symbol="fmtTimestamp"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="3" lineNum="18" parent="globals/MainView" pc="268435640" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="72" parent="globals" pc="268435652" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="73" parent="globals" pc="268435663" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="73" parent="globals" pc="268435670" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="74" parent="globals" pc="268435676" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="75" parent="globals" pc="268435684" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="77" parent="globals" pc="268435708" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="78" parent="globals" pc="268435715" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="79" parent="globals" pc="268435722" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="80" parent="globals" pc="268435730" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="4" lineNum="84" parent="globals" pc="268435805" symbol="fmtDuration"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="5" lineNum="45" parent="globals" pc="268435855" symbol="getActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="5" lineNum="46" parent="globals" pc="268435865" symbol="getActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/gen/006-B3990-00/source/Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435883" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="36" parent="globals" pc="268435903" symbol="getEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="37" parent="globals" pc="268435914" symbol="getEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="7" lineNum="38" parent="globals" pc="268435933" symbol="getEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="8" lineNum="189" parent="globals/DiscardMenuDelegate" pc="268435947" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="9" lineNum="41" parent="globals/EpisodesMenuDelegate" pc="268435959" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="10" lineNum="49" parent="globals" pc="268435971" symbol="setActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="10" lineNum="50" parent="globals" pc="268435981" symbol="setActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="11" lineNum="136" parent="globals/MainDelegate" pc="268436002" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="12" lineNum="118" parent="globals/DeleteAllDelegate" pc="268436014" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="13" lineNum="208" parent="globals/TriggerMenuDelegate" pc="268436026" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="14" lineNum="142" parent="globals" pc="268436038" symbol="syncEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="14" lineNum="143" parent="globals" pc="268436048" symbol="syncEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="14" lineNum="144" parent="globals" pc="268436073" symbol="syncEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="15" lineNum="88" parent="globals/DeleteEpisodeDelegate" pc="268436086" symbol="&lt;init&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="60" parent="globals" pc="268436098" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="61" parent="globals" pc="268436109" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="61" parent="globals" pc="268436116" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="62" parent="globals" pc="268436122" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="63" parent="globals" pc="268436130" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="64" parent="globals" pc="268436141" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="65" parent="globals" pc="268436148" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="66" parent="globals" pc="268436155" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="16" lineNum="68" parent="globals" pc="268436215" symbol="fmtElapsed"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="12" parent="globals" pc="268436251" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="13" parent="globals" pc="268436262" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="14" parent="globals" pc="268436270" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="16" parent="globals" pc="268436310" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="17" parent="globals" pc="268436322" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="20" parent="globals" pc="268436370" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="21" parent="globals" pc="268436389" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="22" parent="globals" pc="268436396" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="23" parent="globals" pc="268436406" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="24" parent="globals" pc="268436416" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="25" parent="globals" pc="268436451" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="26" parent="globals" pc="268436463" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="27" parent="globals" pc="268436478" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="28" parent="globals" pc="268436496" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="30" parent="globals" pc="268436512" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="32" parent="globals" pc="268436562" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="33" parent="globals" pc="268436607" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="17" lineNum="36" parent="globals" pc="268436652" symbol="openEpisodesMenu"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="18" lineNum="53" parent="globals" pc="268436688" symbol="clearActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="18" lineNum="54" parent="globals" pc="268436698" symbol="clearActiveStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="19" lineNum="41" parent="globals" pc="268436718" symbol="persistEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="19" lineNum="42" parent="globals" pc="268436728" symbol="persistEpisodes"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="20" lineNum="17" parent="globals/SVTTrackerApp" pc="268436749" symbol="onStart"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="21" lineNum="23" parent="globals/SVTTrackerApp" pc="268436752" symbol="getInitialView"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="21" lineNum="24" parent="globals/SVTTrackerApp" pc="268436755" symbol="getInitialView"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="21" lineNum="25" parent="globals/SVTTrackerApp" pc="268436775" symbol="getInitialView"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="22" lineNum="13" parent="globals/SVTTrackerApp" pc="268436808" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="22" lineNum="14" parent="globals/SVTTrackerApp" pc="268436810" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc" id="23" lineNum="20" parent="globals/SVTTrackerApp" pc="268436823" symbol="onStop"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="24" lineNum="30" parent="globals/MainView" pc="268436826" symbol="onShow"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="24" lineNum="31" parent="globals/MainView" pc="268436828" symbol="onShow"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="24" lineNum="32" parent="globals/MainView" pc="268436838" symbol="onShow"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="25" lineNum="45" parent="globals/MainView" pc="268436873" symbol="onTick"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="25" lineNum="46" parent="globals/MainView" pc="268436875" symbol="onTick"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="26" lineNum="27" parent="globals/MainView" pc="268436887" symbol="onLayout"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="66" parent="globals/MainView" pc="268436890" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="68" parent="globals/MainView" pc="268436892" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="69" parent="globals/MainView" pc="268436909" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="74" parent="globals/MainView" pc="268436938" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="75" parent="globals/MainView" pc="268436955" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="78" parent="globals/MainView" pc="268436983" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="79" parent="globals/MainView" pc="268437000" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="84" parent="globals/MainView" pc="268437029" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="85" parent="globals/MainView" pc="268437045" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="90" parent="globals/MainView" pc="268437074" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="91" parent="globals/MainView" pc="268437090" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="27" lineNum="94" parent="globals/MainView" pc="268437119" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="22" parent="globals/MainView" pc="268437149" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="23" parent="globals/MainView" pc="268437151" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="28" lineNum="24" parent="globals/MainView" pc="268437163" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="29" lineNum="36" parent="globals/MainView" pc="268437193" symbol="startTicker"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="29" lineNum="37" parent="globals/MainView" pc="268437195" symbol="startTicker"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="29" lineNum="38" parent="globals/MainView" pc="268437226" symbol="startTicker"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="41" parent="globals/MainView" pc="268437238" symbol="onHide"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="30" lineNum="42" parent="globals/MainView" pc="268437240" symbol="onHide"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="49" parent="globals/MainView" pc="268437253" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="50" parent="globals/MainView" pc="268437256" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="51" parent="globals/MainView" pc="268437265" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="52" parent="globals/MainView" pc="268437274" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="54" parent="globals/MainView" pc="268437281" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="55" parent="globals/MainView" pc="268437293" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="57" parent="globals/MainView" pc="268437301" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="58" parent="globals/MainView" pc="268437311" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="31" lineNum="60" parent="globals/MainView" pc="268437329" symbol="onUpdate"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="101" parent="globals/MainView" pc="268437345" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="102" parent="globals/MainView" pc="268437348" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="103" parent="globals/MainView" pc="268437356" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="106" parent="globals/MainView" pc="268437383" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="107" parent="globals/MainView" pc="268437400" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="112" parent="globals/MainView" pc="268437429" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="113" parent="globals/MainView" pc="268437446" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="118" parent="globals/MainView" pc="268437480" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="119" parent="globals/MainView" pc="268437497" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="124" parent="globals/MainView" pc="268437526" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="125" parent="globals/MainView" pc="268437542" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="32" lineNum="128" parent="globals/MainView" pc="268437571" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="191" parent="globals/DiscardMenuDelegate" pc="268437601" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="33" lineNum="192" parent="globals/DiscardMenuDelegate" pc="268437603" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="195" parent="globals/DiscardMenuDelegate" pc="268437616" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="196" parent="globals/DiscardMenuDelegate" pc="268437618" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="197" parent="globals/DiscardMenuDelegate" pc="268437634" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="198" parent="globals/DiscardMenuDelegate" pc="268437641" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="199" parent="globals/DiscardMenuDelegate" pc="268437656" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="34" lineNum="201" parent="globals/DiscardMenuDelegate" pc="268437670" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="35" lineNum="62" parent="globals/EpisodesMenuDelegate" pc="268437686" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="35" lineNum="63" parent="globals/EpisodesMenuDelegate" pc="268437688" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="43" parent="globals/EpisodesMenuDelegate" pc="268437704" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="36" lineNum="44" parent="globals/EpisodesMenuDelegate" pc="268437706" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="66" parent="globals/EpisodesMenuDelegate" pc="268437719" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="67" parent="globals/EpisodesMenuDelegate" pc="268437722" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="68" parent="globals/EpisodesMenuDelegate" pc="268437730" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="69" parent="globals/EpisodesMenuDelegate" pc="268437737" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="70" parent="globals/EpisodesMenuDelegate" pc="268437755" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="71" parent="globals/EpisodesMenuDelegate" pc="268437792" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="72" parent="globals/EpisodesMenuDelegate" pc="268437837" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="37" lineNum="73" parent="globals/EpisodesMenuDelegate" pc="268437882" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="47" parent="globals/EpisodesMenuDelegate" pc="268437920" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="48" parent="globals/EpisodesMenuDelegate" pc="268437923" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="50" parent="globals/EpisodesMenuDelegate" pc="268437932" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="51" parent="globals/EpisodesMenuDelegate" pc="268437943" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="52" parent="globals/EpisodesMenuDelegate" pc="268437961" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="53" parent="globals/EpisodesMenuDelegate" pc="268437972" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="54" parent="globals/EpisodesMenuDelegate" pc="268437979" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="55" parent="globals/EpisodesMenuDelegate" pc="268437997" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="56" parent="globals/EpisodesMenuDelegate" pc="268438008" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="38" lineNum="58" parent="globals/EpisodesMenuDelegate" pc="268438018" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="76" parent="globals/EpisodesMenuDelegate" pc="268438030" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="77" parent="globals/EpisodesMenuDelegate" pc="268438033" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="78" parent="globals/EpisodesMenuDelegate" pc="268438047" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="79" parent="globals/EpisodesMenuDelegate" pc="268438075" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="80" parent="globals/EpisodesMenuDelegate" pc="268438112" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="81" parent="globals/EpisodesMenuDelegate" pc="268438157" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="39" lineNum="82" parent="globals/EpisodesMenuDelegate" pc="268438202" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="157" parent="globals/MainDelegate" pc="268438238" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="158" parent="globals/MainDelegate" pc="268438240" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="159" parent="globals/MainDelegate" pc="268438250" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="160" parent="globals/MainDelegate" pc="268438257" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="40" lineNum="162" parent="globals/MainDelegate" pc="268438262" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="166" parent="globals/MainDelegate" pc="268438264" symbol="onPreviousPage"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="167" parent="globals/MainDelegate" pc="268438266" symbol="onPreviousPage"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="41" lineNum="168" parent="globals/MainDelegate" pc="268438273" symbol="onPreviousPage"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="179" parent="globals/MainDelegate" pc="268438275" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="180" parent="globals/MainDelegate" pc="268438278" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="181" parent="globals/MainDelegate" pc="268438318" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="182" parent="globals/MainDelegate" pc="268438363" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="42" lineNum="183" parent="globals/MainDelegate" pc="268438408" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="140" parent="globals/MainDelegate" pc="268438444" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="141" parent="globals/MainDelegate" pc="268438446" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="43" lineNum="142" parent="globals/MainDelegate" pc="268438458" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="171" parent="globals/MainDelegate" pc="268438468" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="172" parent="globals/MainDelegate" pc="268438471" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="173" parent="globals/MainDelegate" pc="268438511" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="174" parent="globals/MainDelegate" pc="268438531" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="44" lineNum="176" parent="globals/MainDelegate" pc="268438586" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="146" parent="globals/MainDelegate" pc="268438622" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="147" parent="globals/MainDelegate" pc="268438624" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="148" parent="globals/MainDelegate" pc="268438634" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="149" parent="globals/MainDelegate" pc="268438665" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="151" parent="globals/MainDelegate" pc="268438680" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="45" lineNum="153" parent="globals/MainDelegate" pc="268438687" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="178" parent="globals/SyncRequest" pc="268438689" symbol="onResponse"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="46" lineNum="179" parent="globals/SyncRequest" pc="268438691" symbol="onResponse"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="151" parent="globals/SyncRequest" pc="268438700" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="152" parent="globals/SyncRequest" pc="268438703" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="153" parent="globals/SyncRequest" pc="268438711" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="153" parent="globals/SyncRequest" pc="268438723" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="155" parent="globals/SyncRequest" pc="268438727" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="156" parent="globals/SyncRequest" pc="268438731" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="157" parent="globals/SyncRequest" pc="268438747" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="158" parent="globals/SyncRequest" pc="268438754" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="48" lineNum="166" parent="globals/SyncRequest" pc="268438860" symbol="send"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="49" lineNum="120" parent="globals/DeleteAllDelegate" pc="268438936" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="49" lineNum="121" parent="globals/DeleteAllDelegate" pc="268438938" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="124" parent="globals/DeleteAllDelegate" pc="268438951" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="125" parent="globals/DeleteAllDelegate" pc="268438953" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="126" parent="globals/DeleteAllDelegate" pc="268438969" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="127" parent="globals/DeleteAllDelegate" pc="268438980" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="128" parent="globals/DeleteAllDelegate" pc="268438995" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="50" lineNum="130" parent="globals/DeleteAllDelegate" pc="268439013" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="51" lineNum="236" parent="globals/TriggerMenuDelegate" pc="268439029" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="51" lineNum="237" parent="globals/TriggerMenuDelegate" pc="268439031" symbol="onBack"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="52" lineNum="210" parent="globals/TriggerMenuDelegate" pc="268439047" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="52" lineNum="211" parent="globals/TriggerMenuDelegate" pc="268439049" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="214" parent="globals/TriggerMenuDelegate" pc="268439062" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="215" parent="globals/TriggerMenuDelegate" pc="268439065" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="216" parent="globals/TriggerMenuDelegate" pc="268439073" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="217" parent="globals/TriggerMenuDelegate" pc="268439097" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="218" parent="globals/TriggerMenuDelegate" pc="268439106" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="221" parent="globals/TriggerMenuDelegate" pc="268439116" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="222" parent="globals/TriggerMenuDelegate" pc="268439124" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="228" parent="globals/TriggerMenuDelegate" pc="268439171" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="229" parent="globals/TriggerMenuDelegate" pc="268439182" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="231" parent="globals/TriggerMenuDelegate" pc="268439189" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/MainView.mc" id="53" lineNum="232" parent="globals/TriggerMenuDelegate" pc="268439204" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="54" lineNum="92" parent="globals/DeleteEpisodeDelegate" pc="268439216" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="54" lineNum="93" parent="globals/DeleteEpisodeDelegate" pc="268439218" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="54" lineNum="94" parent="globals/DeleteEpisodeDelegate" pc="268439230" symbol="initialize"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="97" parent="globals/DeleteEpisodeDelegate" pc="268439240" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="98" parent="globals/DeleteEpisodeDelegate" pc="268439243" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="99" parent="globals/DeleteEpisodeDelegate" pc="268439259" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="100" parent="globals/DeleteEpisodeDelegate" pc="268439267" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="101" parent="globals/DeleteEpisodeDelegate" pc="268439271" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="102" parent="globals/DeleteEpisodeDelegate" pc="268439287" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="103" parent="globals/DeleteEpisodeDelegate" pc="268439298" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="106" parent="globals/DeleteEpisodeDelegate" pc="268439326" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="108" parent="globals/DeleteEpisodeDelegate" pc="268439337" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="109" parent="globals/DeleteEpisodeDelegate" pc="268439352" symbol="onSelect"/>
+        <entry filename="/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" id="55" lineNum="111" parent="globals/DeleteEpisodeDelegate" pc="268439370" symbol="onSelect"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry id="15" method="true" symbol="fmtDuration"/>
+        <entry id="17" method="true" symbol="fmtDuration"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="9" object="true" symbol="MainDelegate"/>
-        <entry id="22" method="true" symbol="setActiveStart"/>
+        <entry id="24" method="true" symbol="setActiveStart"/>
         <entry id="11" object="true" symbol="SVTTrackerApp"/>
-        <entry id="13" object="true" symbol="TriggerMenuDelegate"/>
+        <entry id="14" object="true" symbol="TriggerMenuDelegate"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="36" symbol="empty"/>
-        <entry id="28" method="true" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
-        <entry field="true" id="35" symbol="AppName"/>
+        <entry id="40" symbol="empty"/>
+        <entry id="8389108" method="true" symbol="onResponse"/>
+        <entry id="31" method="true" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;"/>
+        <entry field="true" id="39" symbol="AppName"/>
         <entry id="4" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389594" symbol="headers"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
-        <entry id="25" method="true" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
+        <entry id="28" method="true" symbol="&lt;globals/MainView/&lt;&gt;drawIdle&gt;"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry id="10" object="true" symbol="MainView"/>
-        <entry field="true" id="30" symbol="&lt;globals/MainDelegate/&lt;&gt;_view&gt;"/>
-        <entry id="17" method="true" symbol="fmtTimestamp"/>
+        <entry field="true" id="33" symbol="&lt;globals/MainDelegate/&lt;&gt;_view&gt;"/>
+        <entry id="19" method="true" symbol="fmtTimestamp"/>
         <entry id="8388883" method="true" symbol="discard"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
-        <entry id="38" symbol="cancel"/>
-        <entry id="19" method="true" symbol="getEpisodes"/>
+        <entry id="43" symbol="cancel"/>
+        <entry id="21" method="true" symbol="getEpisodes"/>
         <entry id="8389079" method="true" symbol="onPreviousPage"/>
         <entry id="6" object="true" symbol="DeleteEpisodeDelegate"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry id="16" method="true" symbol="fmtElapsed"/>
-        <entry id="29" method="true" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
-        <entry id="32" method="true" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
-        <entry id="21" method="true" symbol="persistEpisodes"/>
+        <entry id="18" method="true" symbol="fmtElapsed"/>
+        <entry id="32" method="true" symbol="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;"/>
+        <entry id="35" method="true" symbol="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;"/>
+        <entry id="23" method="true" symbol="persistEpisodes"/>
         <entry id="8389647" symbol="confirm"/>
+        <entry id="8388637" module="true" symbol="Communications"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry field="true" id="33" symbol="&lt;globals/DeleteEpisodeDelegate/&lt;&gt;_idx&gt;"/>
-        <entry id="24" method="true" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
-        <entry id="37" symbol="deleteAll"/>
-        <entry id="31" method="true" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
+        <entry field="true" id="37" symbol="&lt;globals/DeleteEpisodeDelegate/&lt;&gt;_idx&gt;"/>
+        <entry id="8389844" symbol="responseType"/>
+        <entry id="27" method="true" symbol="&lt;globals/MainView/&lt;&gt;drawActive&gt;"/>
+        <entry id="42" symbol="deleteAll"/>
+        <entry id="8388786" method="true" symbol="method"/>
+        <entry id="34" method="true" symbol="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry id="8388645" module="true" symbol="Time"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="7" object="true" symbol="DiscardMenuDelegate"/>
-        <entry id="20" method="true" symbol="openEpisodesMenu"/>
+        <entry id="22" method="true" symbol="openEpisodesMenu"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry field="true" id="34" symbol="LauncherIcon"/>
+        <entry field="true" id="38" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8" object="true" symbol="EpisodesMenuDelegate"/>
         <entry id="5" object="true" symbol="DeleteAllDelegate"/>
-        <entry id="14" method="true" symbol="clearActiveStart"/>
+        <entry id="16" method="true" symbol="clearActiveStart"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="39" symbol="keep"/>
-        <entry id="26" method="true" symbol="onTick"/>
+        <entry id="44" symbol="keep"/>
+        <entry id="29" method="true" symbol="onTick"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="41" symbol="sync"/>
+        <entry id="12" object="true" symbol="SyncRequest"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="18" method="true" symbol="getActiveStart"/>
+        <entry id="20" method="true" symbol="getActiveStart"/>
+        <entry field="true" id="15" symbol="_activeSync"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry id="12" symbol="TRIGGERS"/>
+        <entry id="36" method="true" symbol="send"/>
+        <entry id="13" symbol="TRIGGERS"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="25" method="true" symbol="syncEpisodes"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
-        <entry field="true" id="23" symbol="&lt;globals/MainView/&lt;&gt;_ticker&gt;"/>
-        <entry id="27" method="true" symbol="startTicker"/>
+        <entry field="true" id="26" symbol="&lt;globals/MainView/&lt;&gt;_ticker&gt;"/>
+        <entry id="30" method="true" symbol="startTicker"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435636" name="ts" stackId="1" startPc="268435469"/>
-        <entry arg="true" endPc="268435842" name="secs" stackId="1" startPc="268435649"/>
-        <entry arg="true" endPc="268435989" name="ts" stackId="1" startPc="268435959"/>
-        <entry arg="true" endPc="268436184" name="secs" stackId="1" startPc="268436038"/>
-        <entry endPc="268436572" name="episodes" stackId="1" startPc="268436196"/>
-        <entry endPc="268436572" name="menu" stackId="2" startPc="268436196"/>
-        <entry endPc="268436492" name="i" stackId="3" startPc="268436323"/>
-        <entry endPc="268436482" name="ep" stackId="4" startPc="268436323"/>
-        <entry endPc="268436482" name="start" stackId="5" startPc="268436323"/>
-        <entry endPc="268436482" name="stop" stackId="6" startPc="268436323"/>
-        <entry endPc="268436482" name="trigger" stackId="7" startPc="268436323"/>
-        <entry endPc="268436482" name="label" stackId="8" startPc="268436323"/>
-        <entry endPc="268436482" name="sub" stackId="9" startPc="268436323"/>
-        <entry arg="true" endPc="268436634" name="eps" stackId="1" startPc="268436604"/>
-        <entry arg="true" endPc="268437022" name="dc" stackId="1" startPc="268436764"/>
-        <entry arg="true" endPc="268437022" name="cx" stackId="2" startPc="268436764"/>
-        <entry arg="true" endPc="268437022" name="h" stackId="3" startPc="268436764"/>
-        <entry arg="true" endPc="268437216" name="dc" stackId="1" startPc="268437127"/>
-        <entry endPc="268437215" name="w" stackId="2" startPc="268437130"/>
-        <entry endPc="268437215" name="h" stackId="3" startPc="268437130"/>
-        <entry endPc="268437215" name="cx" stackId="4" startPc="268437130"/>
-        <entry arg="true" endPc="268437472" name="dc" stackId="1" startPc="268437217"/>
-        <entry arg="true" endPc="268437472" name="cx" stackId="2" startPc="268437217"/>
-        <entry arg="true" endPc="268437472" name="h" stackId="3" startPc="268437217"/>
-        <entry endPc="268437471" name="start" stackId="4" startPc="268437220"/>
-        <entry endPc="268437471" name="elapsed" stackId="5" startPc="268437220"/>
-        <entry arg="true" endPc="268437555" name="item" stackId="1" startPc="268437488"/>
-        <entry arg="true" endPc="268437789" name="idx" stackId="1" startPc="268437589"/>
-        <entry endPc="268437788" name="episodes" stackId="2" startPc="268437592"/>
-        <entry endPc="268437788" name="ep" stackId="3" startPc="268437592"/>
-        <entry endPc="268437788" name="label" stackId="4" startPc="268437592"/>
-        <entry endPc="268437788" name="menu" stackId="5" startPc="268437592"/>
-        <entry arg="true" endPc="268437859" name="item" stackId="1" startPc="268437790"/>
-        <entry endPc="268437858" name="id" stackId="2" startPc="268437793"/>
-        <entry endPc="268438066" name="count" stackId="1" startPc="268437863"/>
-        <entry endPc="268438066" name="title" stackId="2" startPc="268437863"/>
-        <entry endPc="268438066" name="menu" stackId="3" startPc="268437863"/>
-        <entry endPc="268438269" name="menu" stackId="1" startPc="268438105"/>
-        <entry arg="true" endPc="268438294" name="view" stackId="1" startPc="268438271"/>
-        <entry endPc="268438447" name="menu" stackId="1" startPc="268438298"/>
-        <entry endPc="268438412" name="i" stackId="2" startPc="268438358"/>
-        <entry arg="true" endPc="268438606" name="item" stackId="1" startPc="268438531"/>
-        <entry arg="true" endPc="268438793" name="item" stackId="1" startPc="268438640"/>
-        <entry endPc="268438792" name="start" stackId="2" startPc="268438643"/>
-        <entry endPc="268438792" name="stop" stackId="3" startPc="268438643"/>
-        <entry endPc="268438792" name="trigIdx" stackId="4" startPc="268438643"/>
-        <entry endPc="268438792" name="trigger" stackId="5" startPc="268438643"/>
-        <entry endPc="268438792" name="episodes" stackId="6" startPc="268438643"/>
-        <entry arg="true" endPc="268438817" name="idx" stackId="1" startPc="268438794"/>
-        <entry arg="true" endPc="268438958" name="item" stackId="1" startPc="268438818"/>
-        <entry endPc="268438941" name="episodes" stackId="2" startPc="268438837"/>
-        <entry endPc="268438941" name="newEps" stackId="3" startPc="268438837"/>
-        <entry endPc="268438900" name="i" stackId="4" startPc="268438865"/>
+        <entry arg="true" endPc="268435639" name="ts" stackId="1" startPc="268435472"/>
+        <entry endPc="268435639" name="moment" stackId="2" startPc="268435483"/>
+        <entry endPc="268435639" name="info" stackId="3" startPc="268435483"/>
+        <entry endPc="268435639" name="month" stackId="4" startPc="268435483"/>
+        <entry endPc="268435639" name="day" stackId="5" startPc="268435483"/>
+        <entry endPc="268435639" name="hour" stackId="6" startPc="268435483"/>
+        <entry endPc="268435639" name="min" stackId="7" startPc="268435483"/>
+        <entry arg="true" endPc="268435854" name="secs" stackId="1" startPc="268435652"/>
+        <entry endPc="268435854" name="m" stackId="2" startPc="268435663"/>
+        <entry endPc="268435854" name="rem" stackId="3" startPc="268435663"/>
+        <entry endPc="268435946" name="stored" stackId="1" startPc="268435914"/>
+        <entry arg="true" endPc="268436001" name="ts" stackId="1" startPc="268435971"/>
+        <entry arg="true" endPc="268436250" name="secs" stackId="1" startPc="268436098"/>
+        <entry endPc="268436250" name="h" stackId="2" startPc="268436109"/>
+        <entry endPc="268436250" name="m" stackId="3" startPc="268436109"/>
+        <entry endPc="268436250" name="s" stackId="4" startPc="268436109"/>
+        <entry endPc="268436686" name="episodes" stackId="1" startPc="268436262"/>
+        <entry endPc="268436686" name="menu" stackId="2" startPc="268436262"/>
+        <entry endPc="268436561" name="i" stackId="3" startPc="268436389"/>
+        <entry endPc="268436551" name="ep" stackId="4" startPc="268436389"/>
+        <entry endPc="268436551" name="start" stackId="5" startPc="268436389"/>
+        <entry endPc="268436551" name="stop" stackId="6" startPc="268436389"/>
+        <entry endPc="268436551" name="trigger" stackId="7" startPc="268436389"/>
+        <entry endPc="268436551" name="label" stackId="8" startPc="268436389"/>
+        <entry endPc="268436551" name="sub" stackId="9" startPc="268436389"/>
+        <entry arg="true" endPc="268436748" name="eps" stackId="1" startPc="268436718"/>
+        <entry endPc="268436807" name="view" stackId="1" startPc="268436755"/>
+        <entry arg="true" endPc="268437148" name="dc" stackId="1" startPc="268436890"/>
+        <entry arg="true" endPc="268437148" name="cx" stackId="2" startPc="268436890"/>
+        <entry arg="true" endPc="268437148" name="h" stackId="3" startPc="268436890"/>
+        <entry arg="true" endPc="268437344" name="dc" stackId="1" startPc="268437253"/>
+        <entry endPc="268437343" name="w" stackId="2" startPc="268437256"/>
+        <entry endPc="268437343" name="h" stackId="3" startPc="268437256"/>
+        <entry endPc="268437343" name="cx" stackId="4" startPc="268437256"/>
+        <entry arg="true" endPc="268437600" name="dc" stackId="1" startPc="268437345"/>
+        <entry arg="true" endPc="268437600" name="cx" stackId="2" startPc="268437345"/>
+        <entry arg="true" endPc="268437600" name="h" stackId="3" startPc="268437345"/>
+        <entry endPc="268437599" name="start" stackId="4" startPc="268437348"/>
+        <entry endPc="268437599" name="elapsed" stackId="5" startPc="268437348"/>
+        <entry arg="true" endPc="268437685" name="item" stackId="1" startPc="268437616"/>
+        <entry arg="true" endPc="268437919" name="idx" stackId="1" startPc="268437719"/>
+        <entry endPc="268437918" name="episodes" stackId="2" startPc="268437722"/>
+        <entry endPc="268437918" name="ep" stackId="3" startPc="268437722"/>
+        <entry endPc="268437918" name="label" stackId="4" startPc="268437722"/>
+        <entry endPc="268437918" name="menu" stackId="5" startPc="268437722"/>
+        <entry arg="true" endPc="268438029" name="item" stackId="1" startPc="268437920"/>
+        <entry endPc="268438028" name="id" stackId="2" startPc="268437923"/>
+        <entry endPc="268438236" name="count" stackId="1" startPc="268438033"/>
+        <entry endPc="268438236" name="title" stackId="2" startPc="268438033"/>
+        <entry endPc="268438236" name="menu" stackId="3" startPc="268438033"/>
+        <entry endPc="268438442" name="menu" stackId="1" startPc="268438278"/>
+        <entry arg="true" endPc="268438467" name="view" stackId="1" startPc="268438444"/>
+        <entry endPc="268438620" name="menu" stackId="1" startPc="268438471"/>
+        <entry endPc="268438585" name="i" stackId="2" startPc="268438531"/>
+        <entry arg="true" endPc="268438699" name="responseCode" stackId="1" startPc="268438689"/>
+        <entry arg="true" endPc="268438699" name="data" stackId="2" startPc="268438689"/>
+        <entry endPc="268438934" name="episodes" stackId="1" startPc="268438703"/>
+        <entry endPc="268438934" name="payload" stackId="2" startPc="268438703"/>
+        <entry endPc="268438859" name="i" stackId="3" startPc="268438747"/>
+        <entry endPc="268438849" name="ep" stackId="4" startPc="268438747"/>
+        <entry arg="true" endPc="268439028" name="item" stackId="1" startPc="268438951"/>
+        <entry arg="true" endPc="268439215" name="item" stackId="1" startPc="268439062"/>
+        <entry endPc="268439214" name="start" stackId="2" startPc="268439065"/>
+        <entry endPc="268439214" name="stop" stackId="3" startPc="268439065"/>
+        <entry endPc="268439214" name="trigIdx" stackId="4" startPc="268439065"/>
+        <entry endPc="268439214" name="trigger" stackId="5" startPc="268439065"/>
+        <entry endPc="268439214" name="episodes" stackId="6" startPc="268439065"/>
+        <entry arg="true" endPc="268439239" name="idx" stackId="1" startPc="268439216"/>
+        <entry arg="true" endPc="268439385" name="item" stackId="1" startPc="268439240"/>
+        <entry endPc="268439366" name="episodes" stackId="2" startPc="268439259"/>
+        <entry endPc="268439366" name="newEps" stackId="3" startPc="268439259"/>
+        <entry endPc="268439325" name="i" stackId="4" startPc="268439287"/>
     </localVars>
     <deviceInfo deviceVersion="3cbcff5b61d759a7585c5fa7606e74c0bd5dfa74" partNumber="006-B3990-00"/>
     <annotations>
@@ -345,122 +395,129 @@
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="49" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/SVTTrackerApp" offset="383" parentId="globals" symbolId="SVTTrackerApp" type="class"/>
-        <dataEntry label="globals/MainView" offset="454" parentId="globals" symbolId="MainView" type="class"/>
-        <dataEntry label="globals/Rez" offset="579" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/DiscardMenuDelegate" offset="623" parentId="globals" symbolId="DiscardMenuDelegate" type="class"/>
-        <dataEntry label="globals/EpisodesMenuDelegate" offset="676" parentId="globals" symbolId="EpisodesMenuDelegate" type="class"/>
-        <dataEntry label="globals/MainDelegate" offset="756" parentId="globals" symbolId="MainDelegate" type="class"/>
-        <dataEntry label="globals/DeleteAllDelegate" offset="854" parentId="globals" symbolId="DeleteAllDelegate" type="class"/>
-        <dataEntry label="globals/TriggerMenuDelegate" offset="907" parentId="globals" symbolId="TriggerMenuDelegate" type="class"/>
-        <dataEntry label="globals/DeleteEpisodeDelegate" offset="969" parentId="globals" symbolId="DeleteEpisodeDelegate" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1031" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1066" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/SVTTrackerApp" offset="410" parentId="globals" symbolId="SVTTrackerApp" type="class"/>
+        <dataEntry label="globals/MainView" offset="481" parentId="globals" symbolId="MainView" type="class"/>
+        <dataEntry label="globals/Rez" offset="606" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/DiscardMenuDelegate" offset="650" parentId="globals" symbolId="DiscardMenuDelegate" type="class"/>
+        <dataEntry label="globals/EpisodesMenuDelegate" offset="703" parentId="globals" symbolId="EpisodesMenuDelegate" type="class"/>
+        <dataEntry label="globals/MainDelegate" offset="783" parentId="globals" symbolId="MainDelegate" type="class"/>
+        <dataEntry label="globals/SyncRequest" offset="881" parentId="globals" symbolId="SyncRequest" type="class"/>
+        <dataEntry label="globals/DeleteAllDelegate" offset="943" parentId="globals" symbolId="DeleteAllDelegate" type="class"/>
+        <dataEntry label="globals/TriggerMenuDelegate" offset="996" parentId="globals" symbolId="TriggerMenuDelegate" type="class"/>
+        <dataEntry label="globals/DeleteEpisodeDelegate" offset="1058" parentId="globals" symbolId="DeleteEpisodeDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1120" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1155" parentId="Rez" symbolId="Strings" type="module"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="SVTTrackerApp" startPc="268435457">
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="SVTTrackerApp" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435636" name="fmtTimestamp" startPc="268435469">
+        <functionEntry accessMode="public" endPc="268435639" name="fmtTimestamp" startPc="268435472">
             <param id="ts"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435648" name="&lt;init&gt;" parent="MainView" startPc="268435637">
+        <functionEntry accessMode="public" endPc="268435651" name="&lt;init&gt;" parent="MainView" startPc="268435640">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435842" name="fmtDuration" startPc="268435649">
+        <functionEntry accessMode="public" endPc="268435854" name="fmtDuration" startPc="268435652">
             <param id="secs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435870" name="getActiveStart" startPc="268435843">
+        <functionEntry accessMode="public" endPc="268435882" name="getActiveStart" startPc="268435855">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435890" name="&lt;init&gt;" parent="Rez" startPc="268435871">
+        <functionEntry accessMode="public" endPc="268435902" name="&lt;init&gt;" parent="Rez" startPc="268435883">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435934" name="getEpisodes" startPc="268435891">
+        <functionEntry accessMode="public" endPc="268435946" name="getEpisodes" startPc="268435903">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435946" name="&lt;init&gt;" parent="DiscardMenuDelegate" startPc="268435935">
+        <functionEntry accessMode="public" endPc="268435958" name="&lt;init&gt;" parent="DiscardMenuDelegate" startPc="268435947">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435958" name="&lt;init&gt;" parent="EpisodesMenuDelegate" startPc="268435947">
+        <functionEntry accessMode="public" endPc="268435970" name="&lt;init&gt;" parent="EpisodesMenuDelegate" startPc="268435959">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435989" name="setActiveStart" startPc="268435959">
+        <functionEntry accessMode="public" endPc="268436001" name="setActiveStart" startPc="268435971">
             <param id="ts"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436001" name="&lt;init&gt;" parent="MainDelegate" startPc="268435990">
+        <functionEntry accessMode="public" endPc="268436013" name="&lt;init&gt;" parent="MainDelegate" startPc="268436002">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436013" name="&lt;init&gt;" parent="DeleteAllDelegate" startPc="268436002">
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="SyncRequest">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436025" name="&lt;init&gt;" parent="TriggerMenuDelegate" startPc="268436014">
+        <functionEntry accessMode="public" endPc="268436025" name="&lt;init&gt;" parent="DeleteAllDelegate" startPc="268436014">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436037" name="&lt;init&gt;" parent="DeleteEpisodeDelegate" startPc="268436026">
+        <functionEntry accessMode="public" endPc="268436037" name="&lt;init&gt;" parent="TriggerMenuDelegate" startPc="268436026">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436184" name="fmtElapsed" startPc="268436038">
+        <functionEntry accessMode="public" endPc="268436085" name="syncEpisodes" startPc="268436038">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436097" name="&lt;init&gt;" parent="DeleteEpisodeDelegate" startPc="268436086">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436250" name="fmtElapsed" startPc="268436098">
             <param id="secs"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436573" name="openEpisodesMenu" startPc="268436185">
+        <functionEntry accessMode="public" endPc="268436687" name="openEpisodesMenu" startPc="268436251">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436603" name="clearActiveStart" startPc="268436574">
+        <functionEntry accessMode="public" endPc="268436717" name="clearActiveStart" startPc="268436688">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436634" name="persistEpisodes" startPc="268436604">
+        <functionEntry accessMode="public" endPc="268436748" name="persistEpisodes" startPc="268436718">
             <param id="eps"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onStart" parent="SVTTrackerApp">
+        <functionEntry accessMode="public" endPc="268436751" name="onStart" parent="SVTTrackerApp" startPc="268436749">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436690" name="getInitialView" parent="SVTTrackerApp" startPc="268436635">
+        <functionEntry accessMode="public" endPc="268436807" name="getInitialView" parent="SVTTrackerApp" startPc="268436752">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436705" name="initialize" parent="SVTTrackerApp" startPc="268436691">
+        <functionEntry accessMode="public" endPc="268436822" name="initialize" parent="SVTTrackerApp" startPc="268436808">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onStop" parent="SVTTrackerApp">
+        <functionEntry accessMode="public" endPc="268436825" name="onStop" parent="SVTTrackerApp" startPc="268436823">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436749" name="onShow" parent="MainView" startPc="268436706">
+        <functionEntry accessMode="public" endPc="268436872" name="onShow" parent="MainView" startPc="268436826">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436763" name="onTick" parent="MainView" startPc="268436750">
+        <functionEntry accessMode="public" endPc="268436886" name="onTick" parent="MainView" startPc="268436873">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onLayout" parent="MainView">
+        <functionEntry accessMode="public" endPc="268436889" name="onLayout" parent="MainView" startPc="268436887">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437022" name="&lt;globals/MainView/&lt;&gt;drawIdle&gt;" parent="MainView" startPc="268436764">
+        <functionEntry accessMode="private" endPc="268437148" name="&lt;globals/MainView/&lt;&gt;drawIdle&gt;" parent="MainView" startPc="268436890">
             <param id="dc"/>
             <param id="cx"/>
             <param id="h"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437066" name="initialize" parent="MainView" startPc="268437023">
+        <functionEntry accessMode="public" endPc="268437192" name="initialize" parent="MainView" startPc="268437149">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437111" name="startTicker" parent="MainView" startPc="268437067">
+        <functionEntry accessMode="public" endPc="268437237" name="startTicker" parent="MainView" startPc="268437193">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437126" name="onHide" parent="MainView" startPc="268437112">
+        <functionEntry accessMode="public" endPc="268437252" name="onHide" parent="MainView" startPc="268437238">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437216" name="onUpdate" parent="MainView" startPc="268437127">
+        <functionEntry accessMode="public" endPc="268437344" name="onUpdate" parent="MainView" startPc="268437253">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437472" name="&lt;globals/MainView/&lt;&gt;drawActive&gt;" parent="MainView" startPc="268437217">
+        <functionEntry accessMode="private" endPc="268437600" name="&lt;globals/MainView/&lt;&gt;drawActive&gt;" parent="MainView" startPc="268437345">
             <param id="dc"/>
             <param id="cx"/>
             <param id="h"/>
@@ -472,71 +529,82 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437487" name="initialize" parent="DiscardMenuDelegate" startPc="268437473">
+        <functionEntry accessMode="public" endPc="268437615" name="initialize" parent="DiscardMenuDelegate" startPc="268437601">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437555" name="onSelect" parent="DiscardMenuDelegate" startPc="268437488">
+        <functionEntry accessMode="public" endPc="268437685" name="onSelect" parent="DiscardMenuDelegate" startPc="268437616">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437573" name="onBack" parent="EpisodesMenuDelegate" startPc="268437556">
+        <functionEntry accessMode="public" endPc="268437703" name="onBack" parent="EpisodesMenuDelegate" startPc="268437686">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437588" name="initialize" parent="EpisodesMenuDelegate" startPc="268437574">
+        <functionEntry accessMode="public" endPc="268437718" name="initialize" parent="EpisodesMenuDelegate" startPc="268437704">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268437789" name="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;" parent="EpisodesMenuDelegate" startPc="268437589">
+        <functionEntry accessMode="private" endPc="268437919" name="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteEpisodeConfirm&gt;" parent="EpisodesMenuDelegate" startPc="268437719">
             <param id="idx"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437859" name="onSelect" parent="EpisodesMenuDelegate" startPc="268437790">
+        <functionEntry accessMode="public" endPc="268438029" name="onSelect" parent="EpisodesMenuDelegate" startPc="268437920">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438067" name="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;" parent="EpisodesMenuDelegate" startPc="268437860">
+        <functionEntry accessMode="private" endPc="268438237" name="&lt;globals/EpisodesMenuDelegate/&lt;&gt;openDeleteAllConfirm&gt;" parent="EpisodesMenuDelegate" startPc="268438030">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438090" name="onBack" parent="MainDelegate" startPc="268438068">
+        <functionEntry accessMode="public" endPc="268438263" name="onBack" parent="MainDelegate" startPc="268438238">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438101" name="onPreviousPage" parent="MainDelegate" startPc="268438091">
+        <functionEntry accessMode="public" endPc="268438274" name="onPreviousPage" parent="MainDelegate" startPc="268438264">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438270" name="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;" parent="MainDelegate" startPc="268438102">
+        <functionEntry accessMode="private" endPc="268438443" name="&lt;globals/MainDelegate/&lt;&gt;openDiscardConfirm&gt;" parent="MainDelegate" startPc="268438275">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438294" name="initialize" parent="MainDelegate" startPc="268438271">
+        <functionEntry accessMode="public" endPc="268438467" name="initialize" parent="MainDelegate" startPc="268438444">
             <param id="view"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268438448" name="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;" parent="MainDelegate" startPc="268438295">
+        <functionEntry accessMode="private" endPc="268438621" name="&lt;globals/MainDelegate/&lt;&gt;openTriggerMenu&gt;" parent="MainDelegate" startPc="268438468">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438515" name="onSelect" parent="MainDelegate" startPc="268438449">
+        <functionEntry accessMode="public" endPc="268438688" name="onSelect" parent="MainDelegate" startPc="268438622">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438530" name="initialize" parent="DeleteAllDelegate" startPc="268438516">
+        <functionEntry accessMode="public" endPc="268438699" name="onResponse" parent="SyncRequest" startPc="268438689">
+            <param id="responseCode"/>
+            <param id="data"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438606" name="onSelect" parent="DeleteAllDelegate" startPc="268438531">
+        <functionEntry accessMode="public" name="initialize" parent="SyncRequest">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438935" name="send" parent="SyncRequest" startPc="268438700">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438950" name="initialize" parent="DeleteAllDelegate" startPc="268438936">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439028" name="onSelect" parent="DeleteAllDelegate" startPc="268438951">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438624" name="onBack" parent="TriggerMenuDelegate" startPc="268438607">
+        <functionEntry accessMode="public" endPc="268439046" name="onBack" parent="TriggerMenuDelegate" startPc="268439029">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438639" name="initialize" parent="TriggerMenuDelegate" startPc="268438625">
+        <functionEntry accessMode="public" endPc="268439061" name="initialize" parent="TriggerMenuDelegate" startPc="268439047">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438793" name="onSelect" parent="TriggerMenuDelegate" startPc="268438640">
+        <functionEntry accessMode="public" endPc="268439215" name="onSelect" parent="TriggerMenuDelegate" startPc="268439062">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438817" name="initialize" parent="DeleteEpisodeDelegate" startPc="268438794">
+        <functionEntry accessMode="public" endPc="268439239" name="initialize" parent="DeleteEpisodeDelegate" startPc="268439216">
             <param id="idx"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438958" name="onSelect" parent="DeleteEpisodeDelegate" startPc="268438818">
+        <functionEntry accessMode="public" endPc="268439385" name="onSelect" parent="DeleteEpisodeDelegate" startPc="268439240">
             <param id="item"/>
             <documentation/>
         </functionEntry>
