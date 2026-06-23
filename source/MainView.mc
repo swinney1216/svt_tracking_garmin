@@ -33,6 +33,11 @@ class MainView extends WatchUi.View {
         }
     }
 
+    function startTicker() as Void {
+        _ticker.start(method(:onTick), 1000, true);
+        WatchUi.requestUpdate();
+    }
+
     function onHide() as Void {
         _ticker.stop();
     }
@@ -83,10 +88,10 @@ class MainView extends WatchUi.View {
 
         // Hints
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(cx, h * 81 / 100,
+        dc.drawText(cx, h * 78 / 100,
             Graphics.FONT_TINY, "SELECT = start",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.drawText(cx, h * 91 / 100,
+        dc.drawText(cx, h * 88 / 100,
             Graphics.FONT_TINY, "UP = history",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
@@ -106,21 +111,21 @@ class MainView extends WatchUi.View {
         // Elapsed timer — large numeric font
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(cx, h * 42 / 100,
-            Graphics.FONT_NUMBER_MEDIUM, fmtElapsed(elapsed),
+            Graphics.FONT_NUMBER_MILD, fmtElapsed(elapsed),
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // STOP label
         dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(cx, h * 68 / 100,
+        dc.drawText(cx, h * 65 / 100,
             Graphics.FONT_LARGE, "STOP",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
 
         // Hints
         dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
-        dc.drawText(cx, h * 81 / 100,
+        dc.drawText(cx, h * 78 / 100,
             Graphics.FONT_TINY, "SELECT = save",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
-        dc.drawText(cx, h * 91 / 100,
+        dc.drawText(cx, h * 88 / 100,
             Graphics.FONT_TINY, "BACK = discard",
             Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
@@ -130,15 +135,18 @@ class MainView extends WatchUi.View {
 
 class MainDelegate extends WatchUi.BehaviorDelegate {
 
-    function initialize() {
+    private var _view as MainView;
+
+    function initialize(view as MainView) {
         BehaviorDelegate.initialize();
+        _view = view;
     }
 
     // SELECT: start episode, or open trigger picker to stop
     function onSelect() as Boolean {
         if (getActiveStart() == null) {
             setActiveStart(Time.now().value().toNumber());
-            WatchUi.requestUpdate();
+            _view.startTicker();
         } else {
             openTriggerMenu();
         }
@@ -225,8 +233,7 @@ class TriggerMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 
     // BACK on the trigger menu cancels the stop — episode keeps running
-    function onBack() as Boolean {
+    function onBack() as Void {
         WatchUi.popView(WatchUi.SLIDE_DOWN);
-        return true;
     }
 }

@@ -18,7 +18,8 @@ class SVTTrackerApp extends Application.AppBase {
     }
 
     function getInitialView() as [WatchUi.Views] or [WatchUi.Views, WatchUi.InputDelegates] {
-        return [new MainView(), new MainDelegate()];
+        var view = new MainView();
+        return [view, new MainDelegate(view)];
     }
 }
 

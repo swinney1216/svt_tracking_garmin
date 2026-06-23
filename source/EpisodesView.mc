@@ -56,9 +56,8 @@ class EpisodesMenuDelegate extends WatchUi.Menu2InputDelegate {
         }
     }
 
-    function onBack() as Boolean {
+    function onBack() as Void {
         WatchUi.popView(WatchUi.SLIDE_DOWN);
-        return true;
     }
 
     private function openDeleteEpisodeConfirm(idx as Number) as Void {

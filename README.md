@@ -1,6 +1,6 @@
 # SVT Tracker — Garmin Widget
 
-A Connect IQ widget for the Garmin Forerunner 255S Music (and compatible watches). One button to start, one to stop — same logic as the web app but built for the wrist.
+A Connect IQ widget for the Garmin Forerunner 255 Music (and compatible watches). One button to start, one to stop — same logic as the web app but built for the wrist.
 
 ## Button mapping
 
@@ -33,13 +33,25 @@ In VS Code command palette: `Monkey C: Build for Device` → select **Forerunner
 
 ### 3. Run in the simulator
 
-Command palette → `Monkey C: Run in Simulator`. A simulator window will open showing your watch. Click the simulator buttons to test.
+The simulator must be launched manually before deploying to it:
+
+1. Open the simulator app from the SDK:
+   ```
+   open ~/Library/Application\ Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-9.2.0-2026-06-09-92a1605b2/bin/ConnectIQ.app
+   ```
+2. Build the project: VS Code command palette → `Monkey C: Build for Device` → `fr255m`
+3. Deploy to the running simulator:
+   ```
+   ~/Library/Application\ Support/Garmin/ConnectIQ/Sdks/connectiq-sdk-mac-9.2.0-2026-06-09-92a1605b2/bin/monkeydo svt_tracking_garmin.prg fr255m
+   ```
+
+The widget will appear in the simulator. Use the on-screen buttons to test.
 
 ### 4. Sideload to your watch (USB)
 
 1. Connect your 255S via USB (charge cable)
-2. Command palette → `Monkey C: Build for Device` → `fr255sm`
-3. Copy the generated `.prg` file from `bin/` to the `GARMIN/APPS/` folder on the watch
+2. Command palette → `Monkey C: Build for Device` → `fr255m`
+3. Copy the generated `.prg` file from the project root to the `GARMIN/APPS/` folder on the watch
 4. Eject and disconnect — the widget appears in your widget loop
 
 ### 5. Publish to Connect IQ Store (optional)
@@ -48,6 +60,6 @@ If you want to install via the Garmin Connect app (no USB), you can publish to t
 
 ## Notes
 
-- The `manifest.xml` lists the 255S Music as the primary device with several others for sharing. Trim `<iq:products>` to just `<iq:product id="fr255sm"/>` if you want a minimal build.
+- The `manifest.xml` lists the 255 Music as the primary device with several others for sharing. Trim `<iq:products>` to just `<iq:product id="fr255m"/>` if you want a minimal build.
 - Episode history is read-only on the watch (no CSV export — use the web app for analysis).
 - If you clear the watch's application data via Garmin Connect, episodes will be lost.
