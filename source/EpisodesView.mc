@@ -150,25 +150,33 @@ class SyncRequest {
 
     function send() as Void {
         var episodes = getEpisodes();
-        if (episodes.size() == 0) { return; }
+        if (episodes.size() == 0) {
+            WatchUi.showToast("No episodes yet", null);
+            return;
+        }
 
-        var payload = [] as Array<Dictionary>;
+        // Build JSON manually — no built-in encoder in Monkey C.
+        // Trigger strings are from a fixed list so no escaping needed.
+        // Sent as a GET query param so it survives the Apps Script redirect.
+        var json = "[";
         for (var i = 0; i < episodes.size(); i++) {
             var ep = episodes[i] as Dictionary;
-            payload.add({
-                "id"      => ep["id"],
-                "start"   => ep["start"],
-                "stop"    => ep["stop"],
-                "trigger" => ep.hasKey("trigger") ? ep["trigger"] as String : "None"
-            });
+            var trigger = ep.hasKey("trigger") ? ep["trigger"] as String : "None";
+            if (i > 0) { json = json + ","; }
+            json = json + "{"
+                + "\"id\":"      + (ep["id"]    as Number).toString()
+                + ",\"start\":"  + (ep["start"] as Number).toString()
+                + ",\"stop\":"   + (ep["stop"]  as Number).toString()
+                + ",\"trigger\":\"" + trigger + "\""
+                + "}";
         }
+        json = json + "]";
 
         Communications.makeWebRequest(
             SYNC_URL,
-            {"episodes" => payload},
+            {"episodes" => json},
             {
-                :method       => Communications.HTTP_REQUEST_METHOD_POST,
-                :headers      => {"Content-Type" => "application/json"},
+                :method       => Communications.HTTP_REQUEST_METHOD_GET,
                 :responseType => Communications.HTTP_RESPONSE_CONTENT_TYPE_JSON
             },
             method(:onResponse)
@@ -177,5 +185,7 @@ class SyncRequest {
 
     function onResponse(responseCode as Number, data as Dictionary or String or Null) as Void {
         _activeSync = null;
+        var msg = (responseCode == 200) ? "Synced!" : "Sync error: " + responseCode.toString();
+        WatchUi.showToast(msg, null);
     }
 }

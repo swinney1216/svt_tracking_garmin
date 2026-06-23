@@ -7,7 +7,7 @@ import Toybox.Time;
 [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [WatchUi,4,14,21]; ]
 import Toybox.WatchUi;
 [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc"; @line = 7; @position = 6; @symbol_constdef = [SYNC_URL,7,6,14]; @symbol_type<0> = [String,7,18,24]; ]
-const SYNC_URL as String = "PASTE_YOUR_APPS_SCRIPT_URL_HERE";
+const SYNC_URL as String = "https://script.google.com/macros/s/AKfycbx_t39mcpJvIO2lfjvPfKPK8IPqsJ5lOMD7y638RHHMZtSJw7aA4iza5mL7lPrwbtbu/exec";
 [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc"; @line = 11; @symbol_classdef = [SVTTrackerApp,11,6,19]; @symbol_extends<0> = [Application,11,28,39]; @symbol_extends<1> = [AppBase,11,40,47]; ]
 class SVTTrackerApp extends Application.AppBase {
     [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/SVTTrackerApp.mc"; @line = 11; ]

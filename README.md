@@ -37,11 +37,21 @@ This step wires up the **Sync to Sheet** feature so you can export episode data 
 3. Replace the default code with:
 
 ```javascript
-function doPost(e) {
-  var data    = JSON.parse(e.postData.contents);
-  var sheet   = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+function doGet(e) {
+  try {
+    var data = JSON.parse(e.parameter.episodes);
+    return writeEpisodes(data);
+  } catch(err) {
+    return ContentService
+      .createTextOutput(JSON.stringify({status: "error", message: err.message}))
+      .setMimeType(ContentService.MimeType.JSON);
+  }
+}
 
-  // Build a set of existing episode IDs to skip duplicates on re-sync
+function writeEpisodes(episodes) {
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+
+  // Skip episodes already in the sheet (column E holds the dedup ID)
   var existingIds = {};
   var lastRow = sheet.getLastRow();
   if (lastRow >= 2) {
@@ -49,7 +59,7 @@ function doPost(e) {
       .forEach(function(r) { existingIds[r[0]] = true; });
   }
 
-  data.episodes.forEach(function(ep) {
+  episodes.forEach(function(ep) {
     if (existingIds[ep.id]) { return; }
     sheet.appendRow([
       new Date(ep.start * 1000),   // A: start (datetime)
@@ -72,6 +82,9 @@ function doPost(e) {
    - Who has access: **Anyone**
 5. Copy the deployment URL
 6. Paste it into `source/SVTTrackerApp.mc`, replacing `"PASTE_YOUR_APPS_SCRIPT_URL_HERE"`
+7. Rebuild and re-sideload the `.prg` to the watch
+
+> **Note:** If you need to update the Apps Script later, always create a **New deployment** rather than editing the existing one — Google caches the previous version otherwise.
 
 ### 3. Build the app
 

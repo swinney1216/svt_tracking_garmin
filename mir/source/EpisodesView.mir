@@ -910,9 +910,9 @@ class SyncRequest {
     }
     [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc"; @line = 151; @symbol_functiondef = [send,151,13,17]; ]
     function send() as Void {
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_start:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_start:
 [ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 152 8 ]
-        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_stop" ]
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_stop" ]
         %episodes.1 = local;
         symbol [ episodes %episodes.1 152 12 20 ];
         %tmp.1 = self;
@@ -922,7 +922,7 @@ _Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_2
         lputv %episodes.1 %tmp.3;
         symbol [ episodes %episodes.1 152 12 20 ];
 [ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 153 8 ]
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_153_44_if_stmt:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_156_8_if_stmt:
         %tmp.4 = lgetv %episodes.1;
         symbol [ episodes %tmp.4 153 12 20 ];
         symbol [ size %tmp.5 153 21 25 ];
@@ -930,176 +930,262 @@ _Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8
         %tmp.6 = invoke %tmp.4 %tmp.5();
         %tmp.7 = 0;
         %tmp.8 = eq %tmp.6 %tmp.7;
-        bf %tmp.8 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_153_44_if_end;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_153_44_if_true:
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_34_153_44_start:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 153 36 ]
+        bf %tmp.8 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_156_8_if_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_156_8_if_true:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_34_156_8_start:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 154 12 ]
+        symbol [ WatchUi %tmp.9 154 12 19 ];
+        %tmp.9 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.10 154 20 29 ];
+        %tmp.10 = getv function %tmp.9 :showToast;
+        %tmp.11 = "No episodes yet";
+        %tmp.12 = null;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12);
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 155 12 ]
         ret ?;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_34_153_44_stop:
-        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_153_44_if_end;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_153_44_if_end:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 155 8 ]
-        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_stop" ]
-        %payload.2 = local;
-        symbol [ payload %payload.2 155 12 19 ];
-        %tmp.9 = newa 0 Array<Dictionary>;
-        symbol [ Array %tmp.9 155 28 33 ];
-        symbol [ Dictionary %tmp.9 155 34 44 ];
-        lputv %payload.2 %tmp.9;
-        symbol [ payload %payload.2 155 12 19 ];
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 156 8 ]
-        for @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_test @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_incr @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_end;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_init:
-        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_begin" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_end" ]
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_34_156_8_stop:
+        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_156_8_if_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_153_8_156_8_if_end:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 161 8 ]
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_stop" ]
+        %json.2 = local;
+        symbol [ json %json.2 161 12 16 ];
+        %tmp.13 = "[";
+        lputv %json.2 %tmp.13;
+        symbol [ json %json.2 161 12 16 ];
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 162 8 ]
+        for @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_test @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_incr @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_init:
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_begin" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_end" ]
         %i.3 = local;
-        symbol [ i %i.3 156 17 18 ];
-        %tmp.10 = 0;
-        lputv %i.3 %tmp.10;
-        symbol [ i %i.3 156 17 18 ];
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_test:
-        %tmp.11 = lgetv %i.3;
-        symbol [ i %tmp.11 156 24 25 ];
-        %tmp.12 = lgetv %episodes.1;
-        symbol [ episodes %tmp.12 156 28 36 ];
-        symbol [ size %tmp.13 156 37 41 ];
-        %tmp.13 = getv function %tmp.12 :size;
-        %tmp.14 = invoke %tmp.12 %tmp.13();
-        %tmp.15 = lt %tmp.11 %tmp.14;
-        bf %tmp.15 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_end;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_begin:
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_50_164_8_start:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 157 12 ]
-        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_50_164_8_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_50_164_8_stop" ]
-        %ep.4 = local;
-        symbol [ ep %ep.4 157 16 18 ];
+        symbol [ i %i.3 162 17 18 ];
+        %tmp.14 = 0;
+        lputv %i.3 %tmp.14;
+        symbol [ i %i.3 162 17 18 ];
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_test:
+        %tmp.15 = lgetv %i.3;
+        symbol [ i %tmp.15 162 24 25 ];
         %tmp.16 = lgetv %episodes.1;
-        symbol [ episodes %tmp.16 157 21 29 ];
-        %tmp.17 = lgetv %i.3;
-        symbol [ i %tmp.17 157 30 31 ];
-        %tmp.18 = agetv %tmp.16 %tmp.17;
-        %tmp.19 = as %tmp.18 Dictionary;
-        symbol [ Dictionary %tmp.19 157 36 46 ];
-        lputv %ep.4 %tmp.19;
-        symbol [ ep %ep.4 157 16 18 ];
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 158 12 ]
-        %tmp.20 = lgetv %payload.2;
-        symbol [ payload %tmp.20 158 12 19 ];
-        symbol [ add %tmp.21 158 20 23 ];
-        %tmp.21 = getv function %tmp.20 :add;
-        %tmp.22 = newd 4;
-        %tmp.23 = "id";
+        symbol [ episodes %tmp.16 162 28 36 ];
+        symbol [ size %tmp.17 162 37 41 ];
+        %tmp.17 = getv function %tmp.16 :size;
+        %tmp.18 = invoke %tmp.16 %tmp.17();
+        %tmp.19 = lt %tmp.15 %tmp.18;
+        bf %tmp.19 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_begin:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_start:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 163 12 ]
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_stop" ]
+        %ep.4 = local;
+        symbol [ ep %ep.4 163 16 18 ];
+        %tmp.20 = lgetv %episodes.1;
+        symbol [ episodes %tmp.20 163 21 29 ];
+        %tmp.21 = lgetv %i.3;
+        symbol [ i %tmp.21 163 30 31 ];
+        %tmp.22 = agetv %tmp.20 %tmp.21;
+        %tmp.23 = as %tmp.22 Dictionary;
+        symbol [ Dictionary %tmp.23 163 36 46 ];
+        lputv %ep.4 %tmp.23;
+        symbol [ ep %ep.4 163 16 18 ];
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 164 12 ]
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_stop" ]
+        %trigger.5 = local;
+        symbol [ trigger %trigger.5 164 16 23 ];
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_begin:
         %tmp.24 = lgetv %ep.4;
-        symbol [ ep %tmp.24 159 29 31 ];
-        %tmp.25 = "id";
-        %tmp.26 = agetv %tmp.24 %tmp.25;
-        %tmp.27 = dup %tmp.22;
-        %tmp.28 = aputv %tmp.27 %tmp.23 %tmp.26;
-        %tmp.29 = "start";
-        %tmp.30 = lgetv %ep.4;
-        symbol [ ep %tmp.30 160 29 31 ];
-        %tmp.31 = "start";
-        %tmp.32 = agetv %tmp.30 %tmp.31;
-        %tmp.33 = dup %tmp.28;
-        %tmp.34 = aputv %tmp.33 %tmp.29 %tmp.32;
-        %tmp.35 = "stop";
-        %tmp.36 = lgetv %ep.4;
-        symbol [ ep %tmp.36 161 29 31 ];
-        %tmp.37 = "stop";
-        %tmp.38 = agetv %tmp.36 %tmp.37;
-        %tmp.39 = dup %tmp.34;
-        %tmp.40 = aputv %tmp.39 %tmp.35 %tmp.38;
-        %tmp.41 = "trigger";
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_begin:
-        %tmp.42 = lgetv %ep.4;
-        symbol [ ep %tmp.42 162 29 31 ];
-        symbol [ hasKey %tmp.43 162 32 38 ];
-        %tmp.43 = getv function %tmp.42 :hasKey;
-        %tmp.44 = "trigger";
-        %tmp.45 = invoke %tmp.42 %tmp.43(%tmp.44);
-        bf %tmp.45 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_else_false;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_true:
-        %tmp.46 = lgetv %ep.4;
-        symbol [ ep %tmp.46 162 52 54 ];
-        %tmp.47 = "trigger";
-        %tmp.48 = agetv %tmp.46 %tmp.47;
-        %tmp.49 = as %tmp.48 String;
-        symbol [ String %tmp.49 162 69 75 ];
-        push %tmp.49;
-        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_end;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_else_false:
-        %tmp.50 = "None";
-        push %tmp.50;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_end:
-        %tmp.51 = phi [%tmp.45 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_begin] [%tmp.49 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_true] [%tmp.50 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_else_false] [%tmp.51 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_29_162_78_end];
-        %tmp.52 = dup %tmp.40;
-        %tmp.53 = aputv %tmp.52 %tmp.41 %tmp.51;
-        invoke %tmp.20 %tmp.21(%tmp.53);
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_50_164_8_stop:
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_incr:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 156 ]
-        %tmp.56 = lgetv %i.3;
-        symbol [ i %tmp.56 156 45 46 ];
-        %tmp.57 = add %tmp.56 1;
-        lputv %i.3 %tmp.57;
-        symbol [ i %i.3 156 45 46 ];
-        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_test;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_156_8_164_8_for_end:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 166 8 ]
-        symbol [ Communications %tmp.58 166 8 22 ];
-        %tmp.58 = getm $.Toybox.Communications;
-        symbol [ makeWebRequest %tmp.59 166 23 37 ];
-        %tmp.59 = getv function %tmp.58 :makeWebRequest;
-        symbol [ SYNC_URL %tmp.61 167 12 20 ];
-        %tmp.61 = getv ? :SYNC_URL;
-        %tmp.62 = newd 1;
-        %tmp.63 = "episodes";
-        %tmp.64 = lgetv %payload.2;
-        symbol [ payload %tmp.64 168 27 34 ];
-        %tmp.65 = dup %tmp.62;
-        %tmp.66 = aputv %tmp.65 %tmp.63 %tmp.64;
-        %tmp.67 = newd 3;
-        %tmp.69 = const :method;
-        symbol [ method %tmp.69 170 17 23 const ];
-        symbol [ Communications %tmp.70 170 33 47 ];
-        %tmp.70 = getm $.Toybox.Communications;
-        symbol [ HTTP_REQUEST_METHOD_POST %tmp.71 170 48 72 ];
-        %tmp.71 = getv %tmp.70 :HTTP_REQUEST_METHOD_POST;
-        %tmp.72 = dup %tmp.67;
-        %tmp.73 = aputv %tmp.72 %tmp.69 %tmp.71;
-        %tmp.75 = const :headers;
-        symbol [ headers %tmp.75 171 17 24 const ];
-        %tmp.76 = newd 1;
-        %tmp.77 = "Content-Type";
-        %tmp.78 = "application/json";
-        %tmp.79 = dup %tmp.76;
-        %tmp.80 = aputv %tmp.79 %tmp.77 %tmp.78;
-        %tmp.81 = dup %tmp.73;
-        %tmp.82 = aputv %tmp.81 %tmp.75 %tmp.80;
-        %tmp.84 = const :responseType;
-        symbol [ responseType %tmp.84 172 17 29 const ];
-        symbol [ Communications %tmp.85 172 33 47 ];
+        symbol [ ep %tmp.24 164 26 28 ];
+        symbol [ hasKey %tmp.25 164 29 35 ];
+        %tmp.25 = getv function %tmp.24 :hasKey;
+        %tmp.26 = "trigger";
+        %tmp.27 = invoke %tmp.24 %tmp.25(%tmp.26);
+        bf %tmp.27 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_else_false;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_true:
+        %tmp.28 = lgetv %ep.4;
+        symbol [ ep %tmp.28 164 49 51 ];
+        %tmp.29 = "trigger";
+        %tmp.30 = agetv %tmp.28 %tmp.29;
+        %tmp.31 = as %tmp.30 String;
+        symbol [ String %tmp.31 164 66 72 ];
+        push %tmp.31;
+        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_else_false:
+        %tmp.32 = "None";
+        push %tmp.32;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_end:
+        %tmp.33 = phi [%tmp.27 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_begin] [%tmp.31 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_true] [%tmp.32 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_else_false] [%tmp.33 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_164_26_164_75_end];
+        lputv %trigger.5 %tmp.33;
+        symbol [ trigger %trigger.5 164 16 23 ];
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 165 12 ]
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_12_165_44_if_stmt:
+        %tmp.34 = lgetv %i.3;
+        symbol [ i %tmp.34 165 16 17 ];
+        %tmp.35 = 0;
+        %tmp.36 = gt %tmp.34 %tmp.35;
+        bf %tmp.36 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_12_165_44_if_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_12_165_44_if_true:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_23_165_44_start:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 165 25 ]
+        %tmp.37 = lgetv %json.2;
+        symbol [ json %tmp.37 165 32 36 ];
+        %tmp.38 = ",";
+        %tmp.39 = add %tmp.37 %tmp.38;
+        lputv %json.2 %tmp.39;
+        symbol [ json %json.2 165 25 29 ];
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_23_165_44_stop:
+        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_12_165_44_if_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_165_12_165_44_if_end:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 166 12 ]
+        %tmp.40 = lgetv %json.2;
+        symbol [ json %tmp.40 166 19 23 ];
+        %tmp.41 = "{";
+        %tmp.42 = add %tmp.40 %tmp.41;
+        %tmp.43 = "\"id\":";
+        %tmp.44 = add %tmp.42 %tmp.43;
+        %tmp.45 = lgetv %ep.4;
+        symbol [ ep %tmp.45 167 36 38 ];
+        %tmp.46 = "id";
+        %tmp.47 = agetv %tmp.45 %tmp.46;
+        %tmp.48 = as %tmp.47 Number;
+        symbol [ Number %tmp.48 167 51 57 ];
+        symbol [ toString %tmp.49 167 59 67 ];
+        %tmp.49 = getv function %tmp.48 :toString;
+        %tmp.50 = invoke %tmp.48 %tmp.49();
+        %tmp.51 = add %tmp.44 %tmp.50;
+        %tmp.52 = ",\"start\":";
+        %tmp.53 = add %tmp.51 %tmp.52;
+        %tmp.54 = lgetv %ep.4;
+        symbol [ ep %tmp.54 168 36 38 ];
+        %tmp.55 = "start";
+        %tmp.56 = agetv %tmp.54 %tmp.55;
+        %tmp.57 = as %tmp.56 Number;
+        symbol [ Number %tmp.57 168 51 57 ];
+        symbol [ toString %tmp.58 168 59 67 ];
+        %tmp.58 = getv function %tmp.57 :toString;
+        %tmp.59 = invoke %tmp.57 %tmp.58();
+        %tmp.60 = add %tmp.53 %tmp.59;
+        %tmp.61 = ",\"stop\":";
+        %tmp.62 = add %tmp.60 %tmp.61;
+        %tmp.63 = lgetv %ep.4;
+        symbol [ ep %tmp.63 169 36 38 ];
+        %tmp.64 = "stop";
+        %tmp.65 = agetv %tmp.63 %tmp.64;
+        %tmp.66 = as %tmp.65 Number;
+        symbol [ Number %tmp.66 169 51 57 ];
+        symbol [ toString %tmp.67 169 59 67 ];
+        %tmp.67 = getv function %tmp.66 :toString;
+        %tmp.68 = invoke %tmp.66 %tmp.67();
+        %tmp.69 = add %tmp.62 %tmp.68;
+        %tmp.70 = ",\"trigger\":\"";
+        %tmp.71 = add %tmp.69 %tmp.70;
+        %tmp.72 = lgetv %trigger.5;
+        symbol [ trigger %tmp.72 170 38 45 ];
+        %tmp.73 = add %tmp.71 %tmp.72;
+        %tmp.74 = "\"";
+        %tmp.75 = add %tmp.73 %tmp.74;
+        %tmp.76 = "}";
+        %tmp.77 = add %tmp.75 %tmp.76;
+        lputv %json.2 %tmp.77;
+        symbol [ json %json.2 166 12 16 ];
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_50_172_8_stop:
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_incr:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 162 ]
+        %tmp.80 = lgetv %i.3;
+        symbol [ i %tmp.80 162 45 46 ];
+        %tmp.81 = add %tmp.80 1;
+        lputv %i.3 %tmp.81;
+        symbol [ i %i.3 162 45 46 ];
+        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_test;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_162_8_172_8_for_end:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 173 8 ]
+        %tmp.82 = lgetv %json.2;
+        symbol [ json %tmp.82 173 15 19 ];
+        %tmp.83 = "]";
+        %tmp.84 = add %tmp.82 %tmp.83;
+        lputv %json.2 %tmp.84;
+        symbol [ json %json.2 173 8 12 ];
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 175 8 ]
+        symbol [ Communications %tmp.85 175 8 22 ];
         %tmp.85 = getm $.Toybox.Communications;
-        symbol [ HTTP_RESPONSE_CONTENT_TYPE_JSON %tmp.86 172 48 79 ];
-        %tmp.86 = getv %tmp.85 :HTTP_RESPONSE_CONTENT_TYPE_JSON;
-        %tmp.87 = dup %tmp.82;
-        %tmp.88 = aputv %tmp.87 %tmp.84 %tmp.86;
-        %tmp.89 = self;
-        symbol [ method %tmp.90 174 12 18 ];
-        %tmp.90 = getv function %tmp.89 :method;
-        %tmp.92 = const :onResponse;
-        symbol [ onResponse %tmp.92 174 20 30 const ];
-        %tmp.93 = invoke %tmp.89 %tmp.90(%tmp.92);
-        invoke %tmp.58 %tmp.59(%tmp.61, %tmp.66, %tmp.88, %tmp.93);
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_176_4_stop:
+        symbol [ makeWebRequest %tmp.86 175 23 37 ];
+        %tmp.86 = getv function %tmp.85 :makeWebRequest;
+        symbol [ SYNC_URL %tmp.88 176 12 20 ];
+        %tmp.88 = getv ? :SYNC_URL;
+        %tmp.89 = newd 1;
+        %tmp.90 = "episodes";
+        %tmp.91 = lgetv %json.2;
+        symbol [ json %tmp.91 177 27 31 ];
+        %tmp.92 = dup %tmp.89;
+        %tmp.93 = aputv %tmp.92 %tmp.90 %tmp.91;
+        %tmp.94 = newd 2;
+        %tmp.96 = const :method;
+        symbol [ method %tmp.96 179 17 23 const ];
+        symbol [ Communications %tmp.97 179 33 47 ];
+        %tmp.97 = getm $.Toybox.Communications;
+        symbol [ HTTP_REQUEST_METHOD_GET %tmp.98 179 48 71 ];
+        %tmp.98 = getv %tmp.97 :HTTP_REQUEST_METHOD_GET;
+        %tmp.99 = dup %tmp.94;
+        %tmp.100 = aputv %tmp.99 %tmp.96 %tmp.98;
+        %tmp.102 = const :responseType;
+        symbol [ responseType %tmp.102 180 17 29 const ];
+        symbol [ Communications %tmp.103 180 33 47 ];
+        %tmp.103 = getm $.Toybox.Communications;
+        symbol [ HTTP_RESPONSE_CONTENT_TYPE_JSON %tmp.104 180 48 79 ];
+        %tmp.104 = getv %tmp.103 :HTTP_RESPONSE_CONTENT_TYPE_JSON;
+        %tmp.105 = dup %tmp.100;
+        %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
+        %tmp.107 = self;
+        symbol [ method %tmp.108 182 12 18 ];
+        %tmp.108 = getv function %tmp.107 :method;
+        %tmp.110 = const :onResponse;
+        symbol [ onResponse %tmp.110 182 20 30 const ];
+        %tmp.111 = invoke %tmp.107 %tmp.108(%tmp.110);
+        invoke %tmp.85 %tmp.86(%tmp.88, %tmp.93, %tmp.106, %tmp.111);
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_151_28_184_4_stop:
     }
-    [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc"; @line = 178; @symbol_functiondef = [onResponse,178,13,23]; @symbol_param<0> = [responseCode,178,24,36]; @symbol_param<0>_type<0> = [Number,178,40,46]; @symbol_param<1> = [data,178,48,52]; @symbol_param<1>_type<0> = [Dictionary,178,56,66]; @symbol_param<1>_type<1> = [String,178,70,76]; ]
+    [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc"; @line = 186; @symbol_functiondef = [onResponse,186,13,23]; @symbol_param<0> = [responseCode,186,24,36]; @symbol_param<0>_type<0> = [Number,186,40,46]; @symbol_param<1> = [data,186,48,52]; @symbol_param<1>_type<0> = [Dictionary,186,56,66]; @symbol_param<1>_type<1> = [String,186,70,76]; ]
     function onResponse(responseCode as Number, data as Dictionary or String or Null) as Void {
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_178_94_180_4_start:
-[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 179 8 ]
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_186_94_190_4_start:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 187 8 ]
         %tmp.1 = null;
-        symbol [ _activeSync ? 179 8 19 ];
+        symbol [ _activeSync ? 187 8 19 ];
         putv self :_activeSync %tmp.1;
-_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_178_94_180_4_stop:
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 188 8 ]
+        [ "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_186_94_190_4_start" "_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_186_94_190_4_stop" ]
+        %msg.1 = local;
+        symbol [ msg %msg.1 188 12 15 ];
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_begin:
+        %tmp.2 = lgetv %responseCode;
+        symbol [ responseCode %tmp.2 188 19 31 ];
+        %tmp.3 = 200;
+        %tmp.4 = eq %tmp.2 %tmp.3;
+        bf %tmp.4 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_else_false;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_true:
+        %tmp.5 = "Synced!";
+        push %tmp.5;
+        goto @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_end;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_else_false:
+        %tmp.6 = "Sync error: ";
+        %tmp.7 = lgetv %responseCode;
+        symbol [ responseCode %tmp.7 188 71 83 ];
+        symbol [ toString %tmp.8 188 84 92 ];
+        %tmp.8 = getv function %tmp.7 :toString;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = add %tmp.6 %tmp.9;
+        push %tmp.10;
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_end:
+        %tmp.11 = phi [%tmp.4 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_begin] [%tmp.5 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_true] [%tmp.10 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_else_false] [%tmp.11 @_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_188_18_188_93_end];
+        lputv %msg.1 %tmp.11;
+        symbol [ msg %msg.1 188 12 15 ];
+[ "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc" 189 8 ]
+        symbol [ WatchUi %tmp.12 189 8 15 ];
+        %tmp.12 = getm $.Toybox.WatchUi;
+        symbol [ showToast %tmp.13 189 16 25 ];
+        %tmp.13 = getv function %tmp.12 :showToast;
+        %tmp.14 = lgetv %msg.1;
+        symbol [ msg %tmp.14 189 26 29 ];
+        %tmp.15 = null;
+        invoke %tmp.12 %tmp.13(%tmp.14, %tmp.15);
+_Users_brandonswinney_Developer_svt_tracking_garmin_source_EpisodesView_mc_186_94_190_4_stop:
     }
 }
 [ @file = "/Users/brandonswinney/Developer/svt_tracking_garmin/source/EpisodesView.mc"; @line = 1; ]
